@@ -1,4 +1,4 @@
-# Celero [![Build Status](https://travis-ci.com/gigante/celero.svg?token=TjraJrya6tP6gQkwQ3xk&branch=master)](https://travis-ci.com/gigante/celero) [![Maintainability](https://api.codeclimate.com/v1/badges/4934f9263ab5e221c4b3/maintainability)](https://codeclimate.com/repos/5c7fd947c1be5c29740034fd/maintainability) [![Requirements Status](https://requires.io/github/gigante/celero/requirements.svg?branch=master)](https://requires.io/github/gigante/celero/requirements/?branch=master)
+# Celero [![Build Status](https://travis-ci.com/gigante/celero.svg?token=TjraJrya6tP6gQkwQ3xk&branch=master)](https://travis-ci.com/gigante/celero) [![Maintainability](https://api.codeclimate.com/v1/badges/4934f9263ab5e221c4b3/maintainability)](https://codeclimate.com/repos/5c7fd947c1be5c29740034fd/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/4934f9263ab5e221c4b3/test_coverage)](https://codeclimate.com/repos/5c7fd947c1be5c29740034fd/test_coverage) [![Requirements Status](https://requires.io/github/gigante/celero/requirements.svg?branch=master)](https://requires.io/github/gigante/celero/requirements/?branch=master)
 
 Components:
 - Django
