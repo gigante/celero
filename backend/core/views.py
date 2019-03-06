@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from rest_framework import viewsets
+from rest_framework import viewsets, filters
 from .models.account import Account
 
 
@@ -12,3 +12,5 @@ class AccountSerializer(serializers.ModelSerializer):
 class AccountViewSet(viewsets.ModelViewSet):
     queryset = Account.objects.all()
     serializer_class = AccountSerializer
+    filter_backends = (filters.OrderingFilter,)
+    ordering_fields = ('name', 'currency')
