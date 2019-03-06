@@ -95,6 +95,8 @@ http patch https://celero.herokuapp.com/api/accounts/UUID/ Authorization:'JWT TO
 
 ## How to test
 
+Test and code coverage
+
 ```
 $ make test
 ```
