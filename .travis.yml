@@ -1,6 +1,7 @@
 language: python
 python: "3.6"
 install:
+  - cp .env.example .env
   - 'pip install pipenv'
   - 'pipenv run make install'
 script:
