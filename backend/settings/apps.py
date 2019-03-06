@@ -28,6 +28,17 @@ REST_FRAMEWORK = {
     )
 }
 
+# Swagger docs
+# https://django-rest-swagger.readthedocs.io
+SWAGGER_SETTINGS = {
+    'SHOW_REQUEST_HEADERS': True,
+    'LOGIN_URL': '/admin/login',
+    'LOGOUT_URL': '/admin/logout',
+    'SUPPORTED_SUBMIT_METHODS': [
+        'get', 'post', 'put', 'patch',
+    ],
+}
+
 # JWT
 # http://getblimp.github.io/django-rest-framework-jwt/
 JWT_AUTH = {
