@@ -19,6 +19,7 @@ markdown = "*"
 python-decouple = "*"
 pytz = "*"
 dj-static = "*"
+static3 = "*"
 
 [dev-packages]
 "flake8" = "*"
