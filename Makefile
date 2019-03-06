@@ -19,7 +19,7 @@ db:
 	@echo '> OK'
 
 test:
-	@python manage.py test
+	@pytest --cov-report xml --cov=./
 
 static:
 	@echo '== CLEANING UP STATIC =='
