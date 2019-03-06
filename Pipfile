@@ -21,6 +21,8 @@ pytz = "*"
 dj-static = "*"
 static3 = "*"
 django-test-without-migrations = "*"
+pytest-django = "*"
+pytest-cov = "*"
 
 [dev-packages]
 "flake8" = "*"
