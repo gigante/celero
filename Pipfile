@@ -20,6 +20,7 @@ python-decouple = "*"
 pytz = "*"
 dj-static = "*"
 static3 = "*"
+django-test-without-migrations = "*"
 
 [dev-packages]
 "flake8" = "*"
@@ -27,7 +28,6 @@ static3 = "*"
 httpie = "*"
 pytest = "*"
 pytest-django = "*"
-django-test-without-migrations = "*"
 werkzeug = "*"
 
 [requires]
